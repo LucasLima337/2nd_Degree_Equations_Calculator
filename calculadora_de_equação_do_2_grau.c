@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main(){
-    float a, b, c, d, x;
+    float a, b, c, d, x1, x2;
     printf("Digite o valor de a: ");
     scanf("%f", &a);
     printf("Digite o valor de b: ");
@@ -23,13 +23,25 @@ int main(){
         }
         else{
             if(d == 0){
-                x = -b / (2 * a);
+                x1 = -b / (2 * a);
                 printf("Existe apenas uma raiz real!\n\n");
-                printf("DELTA = %.1f\n", d);
-                printf("X = %.1f\n", x);
+                printf("DELTA = %.1f\n\n", d);
+                printf("X = %.1f\n", x1);
+                printf("--------------------------------------------\n\n");
+            }
+            else{
+                x1 = (-b + sqrt(d)) / (2 * a);
+                x2 = (-b - sqrt(d)) / (2 * a);
+                printf("Existem duas raizes reais!\n\n");
+                printf("DELTA = %.1f\n\n", d);
+                printf("X1 = %.1f\n", x1);
+                printf("X2 = %.1f\n", x2);
                 printf("--------------------------------------------\n\n");
             }
         }
+    }
+    else{
+        printf("Nao e uma equacao do 2 Grau!\n\n");
     }
     return 0;
 }
