@@ -6,7 +6,7 @@ int main(){
         int e;
     while(e == 1){
         float a, b, c, d, x1, x2;
-        printf("Digite o valor de a: ");
+        printf("\nDigite o valor de a: ");
         scanf("%f", &a);
         printf("Digite o valor de b: ");
         scanf("%f", &b);
