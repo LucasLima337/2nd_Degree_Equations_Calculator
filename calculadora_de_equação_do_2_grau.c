@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main(){
-        int e;
+    int e;
     while(e == 1){
         float a, b, c, d, x1, x2;
         printf("\nDigite o valor de a: ");
