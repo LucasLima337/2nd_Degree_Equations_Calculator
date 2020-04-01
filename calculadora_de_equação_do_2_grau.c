@@ -52,5 +52,5 @@ int main(){
             printf("\nPrograma finalizado com sucesso!\n\n");
             system("pause");
         }
-        return 0;
+    return 0;
 }
