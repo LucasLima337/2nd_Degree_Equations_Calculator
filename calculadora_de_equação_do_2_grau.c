@@ -47,10 +47,10 @@ int main(){
         }
         printf("Digite 1 para calcular novamente ou 2 para encerrar: ");
         scanf("%d", &e);
-        }
+    }
         if(e == 2){
             printf("\nPrograma finalizado com sucesso!\n\n");
             system("pause");
         }
         return 0;
-    }
+}
