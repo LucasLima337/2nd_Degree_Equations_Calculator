@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main(){
-    int e;
+    int e = 1;
     while(e == 1){
         float a, b, c, d, x1, x2;
         printf("\nDigite o valor de a: ");
@@ -45,7 +45,10 @@ int main(){
         else{
             printf("Nao e uma equacao do 2 Grau!\n\n");
         }
-        printf("Digite 1 para calcular novamente ou 2 para encerrar: ");
+        printf("Deseja calcular novamente?\n");
+        printf("[1] SIM\n");
+        printf("[2] NAO\n");
+        printf("Sua escolha: ");
         scanf("%d", &e);
     }
     if(e == 2){
