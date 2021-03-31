@@ -1,5 +1,5 @@
-# Calculadora de Equação do 2º Grau
- Programa feito em linguagem C que resolve uma equação do 2º Grau!
+# 2nd Degree Equations Calculator
+ Program created using C that solves 2nd degree equations!
 
- O usuário deverá informar os valores de a, b e c, respectivamente, para a resolução.
+ The user must type the values of "a", "b", and "c" for the resolution.
  
